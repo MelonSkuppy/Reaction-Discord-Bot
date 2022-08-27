@@ -1,0 +1,5 @@
+me\melonskuppy\DiscordBot.class
+me\melonskuppy\listeners\EventListener.class
+me\melonskuppy\listeners\ButtonListener.class
+me\melonskuppy\Values.class
+me\melonskuppy\listeners\BotCommands.class

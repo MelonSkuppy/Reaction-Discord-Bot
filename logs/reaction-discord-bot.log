@@ -1,0 +1,157 @@
+2022-08-27 14:41:08.346 - Login Successful!
+2022-08-27 14:41:08.687 - Connected to WebSocket
+2022-08-27 14:41:09.073 - Finished Loading!
+2022-08-27 14:42:08.592 - Login Successful!
+2022-08-27 14:42:08.911 - Connected to WebSocket
+2022-08-27 14:42:09.359 - Finished Loading!
+2022-08-27 14:47:06.520 - Login Successful!
+2022-08-27 14:47:06.856 - Connected to WebSocket
+2022-08-27 14:47:07.262 - Finished Loading!
+2022-08-27 14:49:35.310 - Login Successful!
+2022-08-27 14:49:35.636 - Connected to WebSocket
+2022-08-27 14:49:36.032 - Finished Loading!
+2022-08-27 14:49:46.826 - Login Successful!
+2022-08-27 14:49:47.156 - Connected to WebSocket
+2022-08-27 14:49:47.671 - Finished Loading!
+2022-08-27 14:52:01.452 - Login Successful!
+2022-08-27 14:52:01.762 - Connected to WebSocket
+2022-08-27 14:52:02.121 - Finished Loading!
+2022-08-27 14:54:13.947 - Login Successful!
+2022-08-27 14:54:14.274 - Connected to WebSocket
+2022-08-27 14:54:14.804 - Finished Loading!
+2022-08-27 16:50:18.702 - Login Successful!
+2022-08-27 16:50:19.141 - Connected to WebSocket
+2022-08-27 16:50:19.543 - Finished Loading!
+2022-08-27 16:51:21.594 - Login Successful!
+2022-08-27 16:51:21.981 - Connected to WebSocket
+2022-08-27 16:51:22.379 - Finished Loading!
+2022-08-27 16:59:25.196 - Login Successful!
+2022-08-27 16:59:25.557 - Connected to WebSocket
+2022-08-27 16:59:25.922 - Finished Loading!
+2022-08-27 17:00:10.002 - Login Successful!
+2022-08-27 17:00:10.383 - Connected to WebSocket
+2022-08-27 17:00:10.857 - Finished Loading!
+2022-08-27 17:00:15.930 - RestAction queue returned failure: [ErrorResponseException] 50035: Invalid Form Body
+data.components[0].components[1].emoji.name
+	- BUTTON_COMPONENT_INVALID_EMOJI: Invalid emoji
+net.dv8tion.jda.api.exceptions.ContextException: null
+	at net.dv8tion.jda.api.exceptions.ContextException.here(ContextException.java:54)
+	at net.dv8tion.jda.api.requests.Request.<init>(Request.java:71)
+	at net.dv8tion.jda.internal.requests.RestActionImpl.queue(RestActionImpl.java:198)
+	at net.dv8tion.jda.internal.requests.restaction.interactions.InteractionCallbackImpl.queue(InteractionCallbackImpl.java:141)
+	at net.dv8tion.jda.api.requests.RestAction.queue(RestAction.java:573)
+	at net.dv8tion.jda.api.requests.RestAction.queue(RestAction.java:539)
+	at me.melonskuppy.listeners.BotCommands.onSlashCommandInteraction(BotCommands.java:208)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:382)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:170)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:953)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:840)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:818)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:992)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+2022-08-27 17:01:06.497 - Login Successful!
+2022-08-27 17:01:06.875 - Connected to WebSocket
+2022-08-27 17:01:07.288 - Finished Loading!
+2022-08-27 17:02:49.975 - Login Successful!
+2022-08-27 17:02:50.340 - Connected to WebSocket
+2022-08-27 17:02:50.765 - Finished Loading!
+2022-08-27 17:03:10.248 - Login Successful!
+2022-08-27 17:03:10.622 - Connected to WebSocket
+2022-08-27 17:03:11.032 - Finished Loading!
+2022-08-27 17:03:48.420 - Login Successful!
+2022-08-27 17:03:48.791 - Connected to WebSocket
+2022-08-27 17:03:49.174 - Finished Loading!
+2022-08-27 17:07:59.443 - Login Successful!
+2022-08-27 17:07:59.823 - Connected to WebSocket
+2022-08-27 17:08:00.329 - Finished Loading!
+2022-08-27 17:11:40.559 - Login Successful!
+2022-08-27 17:11:40.923 - Connected to WebSocket
+2022-08-27 17:11:41.352 - Finished Loading!
+2022-08-27 17:15:11.476 - Login Successful!
+2022-08-27 17:15:11.829 - Connected to WebSocket
+2022-08-27 17:15:12.246 - Finished Loading!
+2022-08-27 17:19:44.607 - Login Successful!
+2022-08-27 17:19:44.977 - Connected to WebSocket
+2022-08-27 17:19:45.503 - Finished Loading!
+2022-08-27 17:20:08.215 - Login Successful!
+2022-08-27 17:20:08.593 - Connected to WebSocket
+2022-08-27 17:20:09.151 - Finished Loading!
+2022-08-27 17:21:02.215 - Login Successful!
+2022-08-27 17:21:02.584 - Connected to WebSocket
+2022-08-27 17:21:03.001 - Finished Loading!
+2022-08-27 17:21:31.355 - Login Successful!
+2022-08-27 17:21:31.754 - Connected to WebSocket
+2022-08-27 17:21:32.201 - Finished Loading!
+2022-08-27 17:21:54.499 - Login Successful!
+2022-08-27 17:21:54.862 - Connected to WebSocket
+2022-08-27 17:21:55.248 - Finished Loading!
+2022-08-27 17:21:58.345 - Waiting for 1 bucket(s) to finish. Average queue size of 1 requests
+2022-08-27 17:22:01.230 - Login Successful!
+2022-08-27 17:22:01.583 - Connected to WebSocket
+2022-08-27 17:22:01.972 - Finished Loading!
+2022-08-27 17:22:09.433 - Login Successful!
+2022-08-27 17:22:09.796 - Connected to WebSocket
+2022-08-27 17:22:10.194 - Finished Loading!
+2022-08-27 17:25:07.280 - Login Successful!
+2022-08-27 17:25:07.641 - Connected to WebSocket
+2022-08-27 17:25:08.019 - Finished Loading!
+2022-08-27 17:26:46.491 - Login Successful!
+2022-08-27 17:26:46.854 - Connected to WebSocket
+2022-08-27 17:26:47.368 - Finished Loading!
+2022-08-27 17:28:48.390 - Login Successful!
+2022-08-27 17:28:48.758 - Connected to WebSocket
+2022-08-27 17:28:49.219 - Finished Loading!
+2022-08-27 17:29:08.230 - Login Successful!
+2022-08-27 17:29:08.585 - Connected to WebSocket
+2022-08-27 17:29:09.096 - Finished Loading!
+2022-08-27 17:44:43.504 - Login Successful!
+2022-08-27 17:44:43.893 - Connected to WebSocket
+2022-08-27 17:44:44.290 - Finished Loading!
+2022-08-27 17:45:25.640 - Login Successful!
+2022-08-27 17:45:26.015 - Connected to WebSocket
+2022-08-27 17:45:26.397 - Finished Loading!
+2022-08-27 17:48:28.227 - Login Successful!
+2022-08-27 17:48:28.588 - Connected to WebSocket
+2022-08-27 17:48:29.039 - Finished Loading!
+2022-08-27 18:07:49.381 - Login Successful!
+2022-08-27 18:07:49.774 - Connected to WebSocket
+2022-08-27 18:07:50.176 - Finished Loading!
+2022-08-27 18:27:24.869 - Login Successful!
+2022-08-27 18:27:25.234 - Connected to WebSocket
+2022-08-27 18:27:25.655 - Finished Loading!
+2022-08-27 18:29:40.915 - Login Successful!
+2022-08-27 18:29:41.272 - Connected to WebSocket
+2022-08-27 18:29:41.685 - Finished Loading!
+2022-08-27 18:30:29.634 - Login Successful!
+2022-08-27 18:30:29.999 - Connected to WebSocket
+2022-08-27 18:30:30.395 - Finished Loading!
+2022-08-27 18:30:57.262 - Login Successful!
+2022-08-27 18:30:57.618 - Connected to WebSocket
+2022-08-27 18:30:58.018 - Finished Loading!
+2022-08-27 18:33:16.308 - Login Successful!
+2022-08-27 18:33:16.666 - Connected to WebSocket
+2022-08-27 18:33:17.166 - Finished Loading!
+2022-08-27 18:35:43.139 - Login Successful!
+2022-08-27 18:35:43.496 - Connected to WebSocket
+2022-08-27 18:35:43.863 - Finished Loading!
+2022-08-27 18:37:15.067 - Login Successful!
+2022-08-27 18:37:15.428 - Connected to WebSocket
+2022-08-27 18:37:15.882 - Finished Loading!
+2022-08-27 18:38:49.001 - Login Successful!
+2022-08-27 18:38:49.376 - Connected to WebSocket
+2022-08-27 18:38:49.803 - Finished Loading!
+2022-08-27 18:39:01.710 - Login Successful!
+2022-08-27 18:39:02.087 - Connected to WebSocket
+2022-08-27 18:39:02.823 - Finished Loading!
