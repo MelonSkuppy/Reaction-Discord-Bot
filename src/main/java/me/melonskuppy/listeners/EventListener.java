@@ -1,5 +1,6 @@
 package me.melonskuppy.listeners;
 
+import net.dv8tion.jda.api.entities.ChannelType;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import org.jetbrains.annotations.NotNull;
@@ -8,7 +9,7 @@ public class EventListener extends ListenerAdapter {
 
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
-
+        if (event.getChannelType() == ChannelType.PRIVATE) { return; }
         if (!event.getAuthor().isBot()) {
             String messageSent = event.getMessage().getContentRaw();
             if (event.getMessage().getContentRaw().equals("!invite")) {
