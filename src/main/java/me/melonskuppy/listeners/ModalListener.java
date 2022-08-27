@@ -24,7 +24,7 @@ public class ModalListener extends ListenerAdapter {
                     .setAuthor(event.getUser().getAsTag(), null, event.getUser().getAvatarUrl())
                     .setTitle("A message has been received!")
                     .setDescription(message)
-                    .setFooter("This message was sent by the author of the message, and not the bot!")
+                    .setFooter("This message was written by the author of the message, and not the bot!")
                     .setColor(Color.decode("#00ffc4"));
             Message content = new MessageBuilder()
                     .setEmbeds(embed.build())

@@ -155,3 +155,172 @@ net.dv8tion.jda.api.exceptions.ContextException: null
 2022-08-27 18:39:01.710 - Login Successful!
 2022-08-27 18:39:02.087 - Connected to WebSocket
 2022-08-27 18:39:02.823 - Finished Loading!
+2022-08-27 20:10:52.284 - Login Successful!
+2022-08-27 20:10:52.606 - Connected to WebSocket
+2022-08-27 20:10:53.021 - Finished Loading!
+2022-08-27 20:21:05.738 - Login Successful!
+2022-08-27 20:21:06.095 - Connected to WebSocket
+2022-08-27 20:21:06.491 - Finished Loading!
+2022-08-27 20:22:22.847 - Login Successful!
+2022-08-27 20:22:23.166 - Connected to WebSocket
+2022-08-27 20:22:23.550 - Finished Loading!
+2022-08-27 20:22:41.970 - One of the EventListeners had an uncaught exception
+java.lang.IllegalStateException: Cannot convert option of type NUMBER to long
+	at net.dv8tion.jda.api.interactions.commands.OptionMapping.getAsLong(OptionMapping.java:168)
+	at me.melonskuppy.listeners.BotCommands.onSlashCommandInteraction(BotCommands.java:258)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:382)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:170)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:953)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:840)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:818)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:992)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+2022-08-27 20:23:35.353 - Login Successful!
+2022-08-27 20:23:35.689 - Connected to WebSocket
+2022-08-27 20:23:36.066 - Finished Loading!
+2022-08-27 20:25:41.523 - Login Successful!
+2022-08-27 20:25:41.850 - Connected to WebSocket
+2022-08-27 20:25:42.349 - Finished Loading!
+2022-08-27 20:29:04.907 - Login Successful!
+2022-08-27 20:29:05.234 - Connected to WebSocket
+2022-08-27 20:29:05.602 - Finished Loading!
+2022-08-27 20:36:01.330 - Login Successful!
+2022-08-27 20:36:01.664 - Connected to WebSocket
+2022-08-27 20:36:02.087 - Finished Loading!
+2022-08-27 20:36:31.867 - One of the EventListeners had an uncaught exception
+java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.entities.Message.addReaction(net.dv8tion.jda.api.entities.emoji.Emoji)" because "message" is null
+	at me.melonskuppy.listeners.BotCommands.onSlashCommandInteraction(BotCommands.java:262)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:382)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:170)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:953)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:840)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:818)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:992)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+2022-08-27 20:36:47.033 - Login Successful!
+2022-08-27 20:36:47.385 - Connected to WebSocket
+2022-08-27 20:36:47.811 - Finished Loading!
+2022-08-27 20:38:34.870 - Login Successful!
+2022-08-27 20:38:35.190 - Connected to WebSocket
+2022-08-27 20:38:35.579 - Finished Loading!
+2022-08-27 20:39:12.207 - Login Successful!
+2022-08-27 20:39:12.525 - Connected to WebSocket
+2022-08-27 20:39:12.938 - Finished Loading!
+2022-08-27 20:39:33.501 - Login Successful!
+2022-08-27 20:39:33.818 - Connected to WebSocket
+2022-08-27 20:39:34.279 - Finished Loading!
+2022-08-27 20:40:02.693 - Login Successful!
+2022-08-27 20:40:03.018 - Connected to WebSocket
+2022-08-27 20:40:03.408 - Finished Loading!
+2022-08-27 20:40:07.168 - One of the EventListeners had an uncaught exception
+java.lang.NullPointerException: Cannot invoke "net.dv8tion.jda.api.entities.Message.addReaction(net.dv8tion.jda.api.entities.emoji.Emoji)" because "message" is null
+	at me.melonskuppy.listeners.BotCommands.onSlashCommandInteraction(BotCommands.java:264)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:382)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:170)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:953)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:840)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:818)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:992)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+2022-08-27 20:54:07.622 - Login Successful!
+2022-08-27 20:54:07.937 - Connected to WebSocket
+2022-08-27 20:54:08.431 - Finished Loading!
+2022-08-27 20:54:16.794 - One of the EventListeners had an uncaught exception
+java.lang.ClassCastException: class net.dv8tion.jda.internal.requests.RestActionImpl cannot be cast to class net.dv8tion.jda.api.entities.Message (net.dv8tion.jda.internal.requests.RestActionImpl and net.dv8tion.jda.api.entities.Message are in unnamed module of loader 'app')
+	at me.melonskuppy.listeners.BotCommands.onSlashCommandInteraction(BotCommands.java:259)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:382)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:170)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:953)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:840)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:818)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:992)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+2022-08-27 21:23:00.177 - Login Successful!
+2022-08-27 21:23:00.513 - Connected to WebSocket
+2022-08-27 21:23:00.920 - Finished Loading!
+2022-08-27 21:23:12.616 - RestAction queue returned failure: [ErrorResponseException] 10008: Unknown Message
+net.dv8tion.jda.api.exceptions.ContextException: null
+	at net.dv8tion.jda.api.exceptions.ContextException.here(ContextException.java:54)
+	at net.dv8tion.jda.api.requests.Request.<init>(Request.java:71)
+	at net.dv8tion.jda.internal.requests.RestActionImpl.queue(RestActionImpl.java:198)
+	at net.dv8tion.jda.api.requests.RestAction.queue(RestAction.java:573)
+	at me.melonskuppy.listeners.BotCommands.onSlashCommandInteraction(BotCommands.java:260)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:382)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:170)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:39)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:953)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:840)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:818)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:992)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+2022-08-27 21:31:21.609 - Login Successful!
+2022-08-27 21:31:21.932 - Connected to WebSocket
+2022-08-27 21:31:22.507 - Finished Loading!
+2022-08-27 21:38:55.030 - Login Successful!
+2022-08-27 21:38:55.562 - Connected to WebSocket
+2022-08-27 21:38:55.984 - Finished Loading!
+2022-08-27 21:39:50.027 - Login Successful!
+2022-08-27 21:39:50.362 - Connected to WebSocket
+2022-08-27 21:39:50.821 - Finished Loading!
+2022-08-27 21:46:08.817 - Login Successful!
+2022-08-27 21:46:09.142 - Connected to WebSocket
+2022-08-27 21:46:09.550 - Finished Loading!

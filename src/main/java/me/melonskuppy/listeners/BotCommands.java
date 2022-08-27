@@ -16,11 +16,11 @@ import net.dv8tion.jda.api.interactions.components.selections.SelectMenu;
 import net.dv8tion.jda.api.interactions.components.selections.SelectOption;
 import net.dv8tion.jda.api.interactions.components.text.TextInput;
 import net.dv8tion.jda.api.interactions.components.text.TextInputStyle;
+import net.dv8tion.jda.api.requests.RestAction;
 import org.jetbrains.annotations.NotNull;
 
 import java.awt.*;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.concurrent.TimeUnit;
 
 public class BotCommands extends ListenerAdapter {
 
@@ -212,19 +212,7 @@ public class BotCommands extends ListenerAdapter {
                     .setActionRows(ActionRow.of(firstPage.asDisabled(), previousPage.asDisabled(), nextPage.asDisabled(), lastPage.asDisabled()), ActionRow.of(selectMenu))
                     .build();
             event.reply(content).queue();
-
-            final Timer timer = new Timer();
-
-            final TimerTask task = new TimerTask() {
-
-                @Override
-                public void run() {
-                    event.getHook().editOriginalComponents(ActionRow.of(firstPage.asDisabled(), previousPage.asDisabled(), nextPage.asDisabled(), lastPage.asDisabled()), ActionRow.of(selectMenu.asDisabled())).queue();
-                    timer.cancel(); // stop timer after execution
-                }
-            };
-            timer.schedule(task, 20000); // schedule task with delay of 1000ms
-
+            event.getHook().editOriginalComponents(ActionRow.of(firstPage.asDisabled(), previousPage.asDisabled(), nextPage.asDisabled(), lastPage.asDisabled()), ActionRow.of(selectMenu.asDisabled())).queueAfter(20, TimeUnit.SECONDS);
 
         } else if (event.getName().equals("send")) {
 
@@ -237,6 +225,30 @@ public class BotCommands extends ListenerAdapter {
                     .addActionRows(ActionRow.of(message))
                     .build();
             event.replyModal(modal).queue();
+
+        } else if (event.getName().equals("suggest")) {
+
+            if (!event.getMember().hasPermission(Permission.ADMINISTRATOR)) {
+                event.reply("You do not have permission to execute this command!").setEphemeral(true).queue();
+                return;
+            }
+
+            OptionMapping channel = event.getOption("channel");
+            OptionMapping id = event.getOption("message");
+            if (channel == null || id == null) {
+                event.reply("somehow a message ID was not specified.").setEphemeral(true).queue();
+                return;
+            }
+            TextChannel textChannel = event.getGuild().getTextChannelById(channel.getAsLong());
+            if (textChannel == null) {
+                event.reply("An invalid text channel was provided!").setEphemeral(true).queue();
+            }
+            RestAction<Message> restAction = textChannel.retrieveMessageById(id.getAsLong());
+            restAction.queue(message -> {
+                message.addReaction(Emoji.fromUnicode("U+1F44D")).queue();
+                message.addReaction(Emoji.fromUnicode("U+1F44E")).queue();
+                    });
+            event.reply("Reactions added!").setEphemeral(true).queue();
 
         }
 

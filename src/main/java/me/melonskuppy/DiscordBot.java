@@ -57,7 +57,12 @@ public class DiscordBot extends ListenerAdapter {
                                     new OptionData(OptionType.STRING, "message", "text outside of the embed", false)),
                     Commands.slash("help", "get help for the bot"),
                     Commands.slash("send", "send a message to the staff of the server"),
-                    Commands.user("Contact staff")
+                    Commands.user("Contact staff"),
+                    Commands.slash("suggest", "make a message a suggestion")
+                            .addOptions(
+                                    new OptionData(OptionType.CHANNEL, "channel", "the channel that the message is in", true),
+                                    new OptionData(OptionType.STRING, "message", "the message ID of the message", true)
+                            )
             );
 
             commands.queue();
