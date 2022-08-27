@@ -24,6 +24,7 @@ import java.util.TimerTask;
 
 public class BotCommands extends ListenerAdapter {
 
+    //Test
     @Override
     public void onSlashCommandInteraction(@NotNull SlashCommandInteractionEvent event) {
 
